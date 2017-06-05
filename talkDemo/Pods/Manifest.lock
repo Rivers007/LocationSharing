@@ -1,0 +1,25 @@
+PODS:
+  - Hyphenate_CN (3.2.2)
+  - Masonry (1.0.2)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+
+DEPENDENCIES:
+  - Hyphenate_CN
+  - Masonry
+  - SDWebImage
+  - YYKit
+
+SPEC CHECKSUMS:
+  Hyphenate_CN: 05fa840ce905eb49f2840b9b82311da2574cdcac
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+
+PODFILE CHECKSUM: fffe9f7e858e21d67631b331ade27ab79608a045
+
+COCOAPODS: 1.1.1

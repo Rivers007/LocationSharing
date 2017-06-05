@@ -1,0 +1,23 @@
+//
+//  talkDemo.pch
+//  talkDemo
+//
+//  Created by 江贵铸 on 2017/2/1.
+//  Copyright © 2017年 江贵铸. All rights reserved.
+//
+
+#ifndef talkDemo_pch
+#define talkDemo_pch
+
+#import <Masonry.h>
+#import <YYKit.h>
+#import <Hyphenate_CN/EMSDKFull.h>
+//#import <Hyphenate_CN/IEMChatManager.h>
+#import "MLLabel.h"
+#import "MLLinkLabel.h"
+
+#define RectStatus [[UIApplication sharedApplication] statusBarFrame]
+#define RectNavigationBar self.navigationController.navigationBar.frame
+#define UIScreenSize [UIScreen mainScreen].bounds.size
+#endif /* talkDemo_pch */
+

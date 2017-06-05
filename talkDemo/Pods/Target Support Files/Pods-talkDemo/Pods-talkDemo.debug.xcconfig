@@ -1,0 +1,10 @@
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/YYKit/Vendor"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/Hyphenate_CN" "${PODS_ROOT}/Headers/Public/Masonry" "${PODS_ROOT}/Headers/Public/SDWebImage" "${PODS_ROOT}/Headers/Public/YYKit"
+LIBRARY_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/Masonry" "$PODS_CONFIGURATION_BUILD_DIR/SDWebImage" "$PODS_CONFIGURATION_BUILD_DIR/YYKit" $(inherited) "${PODS_ROOT}/Hyphenate_CN/HyphenateFullSDK/lib"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/Hyphenate_CN" -isystem "${PODS_ROOT}/Headers/Public/Masonry" -isystem "${PODS_ROOT}/Headers/Public/SDWebImage" -isystem "${PODS_ROOT}/Headers/Public/YYKit"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"HyphenateFullSDK_arm64" -l"HyphenateFullSDK_armv7" -l"HyphenateFullSDK_i386" -l"HyphenateFullSDK_x86_64" -l"Masonry" -l"SDWebImage" -l"YYKit" -l"c++" -l"iconv" -l"sqlite3" -l"stdc++.6.0.9" -l"z" -framework "AVFoundation" -framework "Accelerate" -framework "AssetsLibrary" -framework "AudioToolbox" -framework "CoreFoundation" -framework "CoreGraphics" -framework "CoreImage" -framework "CoreMedia" -framework "CoreText" -framework "Foundation" -framework "ImageIO" -framework "MobileCoreServices" -framework "QuartzCore" -framework "SystemConfiguration" -framework "UIKit" -framework "WebP"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}/Pods
