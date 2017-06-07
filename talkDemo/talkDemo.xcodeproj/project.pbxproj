@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E0628951EE646CB00EC8D89 /* JGZSharedLocationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0628941EE646CB00EC8D89 /* JGZSharedLocationController.m */; };
+		0E0628A01EE6565E00EC8D89 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E06289F1EE6565E00EC8D89 /* OpenGLES.framework */; };
+		0E0628A21EE6567700EC8D89 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E0628A11EE6567700EC8D89 /* CoreGraphics.framework */; };
+		0E0628A41EE6568200EC8D89 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E0628A31EE6568200EC8D89 /* QuartzCore.framework */; };
+		0E0628A61EE6568C00EC8D89 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E0628A51EE6568C00EC8D89 /* CoreLocation.framework */; };
+		0E0628A81EE6569D00EC8D89 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E0628A71EE6569D00EC8D89 /* CoreTelephony.framework */; };
+		0E0628AA1EE656AA00EC8D89 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E0628A91EE656AA00EC8D89 /* SystemConfiguration.framework */; };
+		0E0628AC1EE656B500EC8D89 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E0628AB1EE656B500EC8D89 /* Security.framework */; };
+		0E0628AE1EE656BE00EC8D89 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E0628AD1EE656BE00EC8D89 /* AdSupport.framework */; };
+		0E0628B01EE656C600EC8D89 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E0628AF1EE656C600EC8D89 /* JavaScriptCore.framework */; };
+		0E0628B21EE656DF00EC8D89 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E0628B11EE656DF00EC8D89 /* GLKit.framework */; };
+		0E0628B61EE657FF00EC8D89 /* AMapFoundationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E0628B41EE657FF00EC8D89 /* AMapFoundationKit.framework */; };
+		0E0628BB1EE6618700EC8D89 /* MAMapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E0628BA1EE6618700EC8D89 /* MAMapKit.framework */; };
+		0E0628C01EE679A300EC8D89 /* MAAnnotationView+JGZMAAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0628BF1EE679A300EC8D89 /* MAAnnotationView+JGZMAAnnotationView.m */; };
+		0E0628C21EE67CBC00EC8D89 /* arrow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E0628C11EE67CBC00EC8D89 /* arrow@3x.png */; };
+		0E0628C51EE689AC00EC8D89 /* JGZLocationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0628C41EE689AC00EC8D89 /* JGZLocationModel.m */; };
+		0E3272C01EE79939005DD136 /* CustomAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3272BF1EE79939005DD136 /* CustomAnnotation.m */; };
+		0E3272C31EE7996F005DD136 /* CustomAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3272C21EE7996F005DD136 /* CustomAnnotationView.m */; };
 		0E9838211E406330002C6878 /* JGZAccountTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E9838201E406330002C6878 /* JGZAccountTool.m */; };
 		0E9838241E406356002C6878 /* JGZAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E9838231E406356002C6878 /* JGZAccount.m */; };
 		0E9838271E4068A3002C6878 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E9838251E4068A3002C6878 /* Main.storyboard */; };
@@ -59,6 +77,29 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E0628931EE646CB00EC8D89 /* JGZSharedLocationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGZSharedLocationController.h; sourceTree = "<group>"; };
+		0E0628941EE646CB00EC8D89 /* JGZSharedLocationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGZSharedLocationController.m; sourceTree = "<group>"; };
+		0E06289F1EE6565E00EC8D89 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		0E0628A11EE6567700EC8D89 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0E0628A31EE6568200EC8D89 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0E0628A51EE6568C00EC8D89 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		0E0628A71EE6569D00EC8D89 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		0E0628A91EE656AA00EC8D89 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		0E0628AB1EE656B500EC8D89 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		0E0628AD1EE656BE00EC8D89 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		0E0628AF1EE656C600EC8D89 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		0E0628B11EE656DF00EC8D89 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		0E0628B41EE657FF00EC8D89 /* AMapFoundationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapFoundationKit.framework; sourceTree = "<group>"; };
+		0E0628BA1EE6618700EC8D89 /* MAMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MAMapKit.framework; sourceTree = "<group>"; };
+		0E0628BE1EE679A300EC8D89 /* MAAnnotationView+JGZMAAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MAAnnotationView+JGZMAAnnotationView.h"; sourceTree = "<group>"; };
+		0E0628BF1EE679A300EC8D89 /* MAAnnotationView+JGZMAAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MAAnnotationView+JGZMAAnnotationView.m"; sourceTree = "<group>"; };
+		0E0628C11EE67CBC00EC8D89 /* arrow@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow@3x.png"; sourceTree = "<group>"; };
+		0E0628C31EE689AC00EC8D89 /* JGZLocationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGZLocationModel.h; sourceTree = "<group>"; };
+		0E0628C41EE689AC00EC8D89 /* JGZLocationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGZLocationModel.m; sourceTree = "<group>"; };
+		0E3272BE1EE79939005DD136 /* CustomAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAnnotation.h; sourceTree = "<group>"; };
+		0E3272BF1EE79939005DD136 /* CustomAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAnnotation.m; sourceTree = "<group>"; };
+		0E3272C11EE7996F005DD136 /* CustomAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAnnotationView.h; sourceTree = "<group>"; };
+		0E3272C21EE7996F005DD136 /* CustomAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAnnotationView.m; sourceTree = "<group>"; };
 		0E84ED441E41F9D800F65D4E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		0E84ED451E41F9D900F65D4E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		0E98381F1E406330002C6878 /* JGZAccountTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGZAccountTool.h; sourceTree = "<group>"; };
@@ -153,7 +194,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E0628B21EE656DF00EC8D89 /* GLKit.framework in Frameworks */,
+				0E0628B01EE656C600EC8D89 /* JavaScriptCore.framework in Frameworks */,
+				0E0628AE1EE656BE00EC8D89 /* AdSupport.framework in Frameworks */,
+				0E0628AC1EE656B500EC8D89 /* Security.framework in Frameworks */,
+				0E0628AA1EE656AA00EC8D89 /* SystemConfiguration.framework in Frameworks */,
+				0E0628A81EE6569D00EC8D89 /* CoreTelephony.framework in Frameworks */,
+				0E0628A61EE6568C00EC8D89 /* CoreLocation.framework in Frameworks */,
+				0E0628A41EE6568200EC8D89 /* QuartzCore.framework in Frameworks */,
+				0E0628A21EE6567700EC8D89 /* CoreGraphics.framework in Frameworks */,
+				0E0628A01EE6565E00EC8D89 /* OpenGLES.framework in Frameworks */,
 				0EAF85E71E402DC900E0FFF8 /* libiconv.tbd in Frameworks */,
+				0E0628BB1EE6618700EC8D89 /* MAMapKit.framework in Frameworks */,
+				0E0628B61EE657FF00EC8D89 /* AMapFoundationKit.framework in Frameworks */,
 				0EAF85E51E402D6400E0FFF8 /* libsqlite3.0.tbd in Frameworks */,
 				0EAF85E31E402D5700E0FFF8 /* libstdc++.6.0.9.tbd in Frameworks */,
 				0EAF85E11E402D4C00E0FFF8 /* libz.tbd in Frameworks */,
@@ -170,9 +223,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E0628B31EE657F700EC8D89 /* GaodeMap */ = {
+			isa = PBXGroup;
+			children = (
+				0E0628BA1EE6618700EC8D89 /* MAMapKit.framework */,
+				0E0628B41EE657FF00EC8D89 /* AMapFoundationKit.framework */,
+				0E0628BE1EE679A300EC8D89 /* MAAnnotationView+JGZMAAnnotationView.h */,
+				0E0628BF1EE679A300EC8D89 /* MAAnnotationView+JGZMAAnnotationView.m */,
+				0E3272BE1EE79939005DD136 /* CustomAnnotation.h */,
+				0E3272BF1EE79939005DD136 /* CustomAnnotation.m */,
+				0E3272C11EE7996F005DD136 /* CustomAnnotationView.h */,
+				0E3272C21EE7996F005DD136 /* CustomAnnotationView.m */,
+			);
+			path = GaodeMap;
+			sourceTree = "<group>";
+		};
 		0EAF441E1E4196CB005D26F0 /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				0E0628B31EE657F700EC8D89 /* GaodeMap */,
 				0EAF444E1E41D1A4005D26F0 /* JGZEmojiKeyBoard */,
 				0EAF445E1E41D1A4005D26F0 /* JGZInputTextView */,
 				0EAF44611E41D1A4005D26F0 /* JGZToolBar */,
@@ -320,6 +389,10 @@
 				0EAF44491E41C6FC005D26F0 /* JGZChatRoomController.m */,
 				0EAF444B1E41CB89005D26F0 /* JGZChatRoomCell.h */,
 				0EAF444C1E41CB89005D26F0 /* JGZChatRoomCell.m */,
+				0E0628931EE646CB00EC8D89 /* JGZSharedLocationController.h */,
+				0E0628941EE646CB00EC8D89 /* JGZSharedLocationController.m */,
+				0E0628C31EE689AC00EC8D89 /* JGZLocationModel.h */,
+				0E0628C41EE689AC00EC8D89 /* JGZLocationModel.m */,
 				0E9838251E4068A3002C6878 /* Main.storyboard */,
 				0EAF85C41E40218800E0FFF8 /* Assets.xcassets */,
 				0EAF85C61E40218800E0FFF8 /* LaunchScreen.storyboard */,
@@ -332,6 +405,7 @@
 		0EAF85B81E40218800E0FFF8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0E0628C11EE67CBC00EC8D89 /* arrow@3x.png */,
 				0EAF85B91E40218800E0FFF8 /* main.m */,
 				0EAF441D1E418F55005D26F0 /* talkDemo.pch */,
 			);
@@ -358,6 +432,16 @@
 		0EAF85D31E402CF300E0FFF8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0E0628B11EE656DF00EC8D89 /* GLKit.framework */,
+				0E0628AF1EE656C600EC8D89 /* JavaScriptCore.framework */,
+				0E0628AD1EE656BE00EC8D89 /* AdSupport.framework */,
+				0E0628AB1EE656B500EC8D89 /* Security.framework */,
+				0E0628A91EE656AA00EC8D89 /* SystemConfiguration.framework */,
+				0E0628A71EE6569D00EC8D89 /* CoreTelephony.framework */,
+				0E0628A51EE6568C00EC8D89 /* CoreLocation.framework */,
+				0E0628A31EE6568200EC8D89 /* QuartzCore.framework */,
+				0E0628A11EE6567700EC8D89 /* CoreGraphics.framework */,
+				0E06289F1EE6565E00EC8D89 /* OpenGLES.framework */,
 				0EAF42721E408353005D26F0 /* Hyphenate.framework */,
 				0E98382B1E4081A0002C6878 /* UIKit.framework */,
 				0EAF85E61E402DC900E0FFF8 /* libiconv.tbd */,
@@ -463,6 +547,7 @@
 				0EAF446C1E41D1A4005D26F0 /* JGZEmoji_Expression.bundle in Resources */,
 				0EAF44431E4196CB005D26F0 /* Expression.plist in Resources */,
 				0E9838271E4068A3002C6878 /* Main.storyboard in Resources */,
+				0E0628C21EE67CBC00EC8D89 /* arrow@3x.png in Resources */,
 				0EAF443E1E4196CB005D26F0 /* ClippedExpression.bundle in Resources */,
 				0EAF85C81E40218800E0FFF8 /* LaunchScreen.storyboard in Resources */,
 				0EAF446F1E41D1A4005D26F0 /* ToolBarIcon.bundle in Resources */,
@@ -529,9 +614,11 @@
 			files = (
 				0EAF85C01E40218800E0FFF8 /* MainViewController.m in Sources */,
 				0EAF44691E41D1A4005D26F0 /* JGZEmojiModel.m in Sources */,
+				0E0628C51EE689AC00EC8D89 /* JGZLocationModel.m in Sources */,
 				0EAF44451E4196CB005D26F0 /* MLLabel.m in Sources */,
 				0EAF44661E41D1A4005D26F0 /* JGZEmojiCollectionCell.m in Sources */,
 				0EAF443B1E4196CB005D26F0 /* NSAttributedString+MLLabel.m in Sources */,
+				0E3272C31EE7996F005DD136 /* CustomAnnotationView.m in Sources */,
 				0EAF44721E41D36C005D26F0 /* EMSDKHelp.m in Sources */,
 				0EAF446E1E41D1A4005D26F0 /* JGZToolBar.m in Sources */,
 				0EAF85BD1E40218800E0FFF8 /* AppDelegate.m in Sources */,
@@ -547,10 +634,13 @@
 				0E98382A1E407154002C6878 /* AppDelegate+EMAppDelegate.m in Sources */,
 				0EAF44401E4196CB005D26F0 /* MLTextAttachment.m in Sources */,
 				0EAF44421E4196CB005D26F0 /* NSString+MLExpression.m in Sources */,
+				0E0628C01EE679A300EC8D89 /* MAAnnotationView+JGZMAAnnotationView.m in Sources */,
 				0E9838241E406356002C6878 /* JGZAccount.m in Sources */,
+				0E0628951EE646CB00EC8D89 /* JGZSharedLocationController.m in Sources */,
 				0EAF443F1E4196CB005D26F0 /* MLExpressionManager.m in Sources */,
 				0EAF44411E4196CB005D26F0 /* NSAttributedString+MLExpression.m in Sources */,
 				0EAF443C1E4196CB005D26F0 /* NSMutableAttributedString+MLLabel.m in Sources */,
+				0E3272C01EE79939005DD136 /* CustomAnnotation.m in Sources */,
 				0EAF446A1E41D1A4005D26F0 /* JGZTextAttachment.m in Sources */,
 				0EAF443D1E4196CB005D26F0 /* NSString+MLLabel.m in Sources */,
 				0EAF44671E41D1A4005D26F0 /* JGZEmojiKeyBoard.m in Sources */,
@@ -686,6 +776,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/talkDemo/Framework/huanxin",
 					"$(PROJECT_DIR)/talkDemo",
+					"$(PROJECT_DIR)/talkDemo/Lib/GaodeMap",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = talkDemo/talkDemo.pch;
@@ -712,6 +803,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/talkDemo/Framework/huanxin",
 					"$(PROJECT_DIR)/talkDemo",
+					"$(PROJECT_DIR)/talkDemo/Lib/GaodeMap",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = talkDemo/talkDemo.pch;

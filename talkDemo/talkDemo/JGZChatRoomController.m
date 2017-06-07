@@ -96,7 +96,6 @@
 //            EMTextMessageBody *body=message.body;
 //            NSLog(@"%@\n%@",body.text,message.ext);
 
-
 }
 -(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
     return 1;

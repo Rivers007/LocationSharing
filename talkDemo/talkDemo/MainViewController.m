@@ -10,6 +10,7 @@
 #import "JGZMainViewCell.h"
 #import "JGZChatRoomController.h"
 #import "JGZAccountTool.h"
+#import "JGZSharedLocationController.h"
 @interface MainViewController ()<UITableViewDelegate,UITableViewDataSource,EMChatManagerDelegate>
 @property (nonatomic,strong)UITableView *tableview;
 @property (nonatomic,strong)NSMutableArray *DataSourceArray;
@@ -73,8 +74,8 @@
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     EMConversation *conversation = self.DataSourceArray[indexPath.row];
-    JGZChatRoomController *ChatRoomController = [[JGZChatRoomController alloc] initWith:conversation];
-    
+//    JGZChatRoomController *ChatRoomController = [[JGZChatRoomController alloc] initWith:conversation];
+    JGZSharedLocationController *ChatRoomController = [[JGZSharedLocationController alloc] initWith:conversation];
     [self.navigationController pushViewController:ChatRoomController animated:YES];
 
 }

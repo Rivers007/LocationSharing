@@ -23,7 +23,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     
     [JGZAccountTool ChooseRootController:self.window];
-    
+    [AMapServices sharedServices].apiKey = @"b5883fa03944a07f184f3ac773e90683";
     return YES;
 }
 

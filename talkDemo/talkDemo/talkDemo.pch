@@ -16,6 +16,9 @@
 #import "MLLabel.h"
 #import "MLLinkLabel.h"
 
+#import <MAMapKit/MAMapKit.h>
+#import <AMapFoundationKit/AMapFoundationKit.h>
+
 #define RectStatus [[UIApplication sharedApplication] statusBarFrame]
 #define RectNavigationBar self.navigationController.navigationBar.frame
 #define UIScreenSize [UIScreen mainScreen].bounds.size
