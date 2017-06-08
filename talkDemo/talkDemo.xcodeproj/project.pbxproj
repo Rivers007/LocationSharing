@@ -30,32 +30,6 @@
 		0E9838271E4068A3002C6878 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E9838251E4068A3002C6878 /* Main.storyboard */; };
 		0E98382A1E407154002C6878 /* AppDelegate+EMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E9838291E407154002C6878 /* AppDelegate+EMAppDelegate.m */; };
 		0EAF441C1E418D62005D26F0 /* JGZMainViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EAF441B1E418D62005D26F0 /* JGZMainViewCell.m */; };
-		0EAF443B1E4196CB005D26F0 /* NSAttributedString+MLLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EAF44221E4196CB005D26F0 /* NSAttributedString+MLLabel.m */; };
-		0EAF443C1E4196CB005D26F0 /* NSMutableAttributedString+MLLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EAF44241E4196CB005D26F0 /* NSMutableAttributedString+MLLabel.m */; };
-		0EAF443D1E4196CB005D26F0 /* NSString+MLLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EAF44261E4196CB005D26F0 /* NSString+MLLabel.m */; };
-		0EAF443E1E4196CB005D26F0 /* ClippedExpression.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0EAF44271E4196CB005D26F0 /* ClippedExpression.bundle */; };
-		0EAF443F1E4196CB005D26F0 /* MLExpressionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EAF442A1E4196CB005D26F0 /* MLExpressionManager.m */; };
-		0EAF44401E4196CB005D26F0 /* MLTextAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EAF442C1E4196CB005D26F0 /* MLTextAttachment.m */; };
-		0EAF44411E4196CB005D26F0 /* NSAttributedString+MLExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EAF442E1E4196CB005D26F0 /* NSAttributedString+MLExpression.m */; };
-		0EAF44421E4196CB005D26F0 /* NSString+MLExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EAF44301E4196CB005D26F0 /* NSString+MLExpression.m */; };
-		0EAF44431E4196CB005D26F0 /* Expression.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0EAF44311E4196CB005D26F0 /* Expression.plist */; };
-		0EAF44441E4196CB005D26F0 /* MLLabelLayoutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EAF44351E4196CB005D26F0 /* MLLabelLayoutManager.m */; };
-		0EAF44451E4196CB005D26F0 /* MLLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EAF44371E4196CB005D26F0 /* MLLabel.m */; };
-		0EAF44461E4196CB005D26F0 /* MLLinkLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EAF44391E4196CB005D26F0 /* MLLinkLabel.m */; };
-		0EAF44471E4196CB005D26F0 /* OriginalExpression.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0EAF443A1E4196CB005D26F0 /* OriginalExpression.bundle */; };
-		0EAF444A1E41C6FC005D26F0 /* JGZChatRoomController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EAF44491E41C6FC005D26F0 /* JGZChatRoomController.m */; };
-		0EAF444D1E41CB89005D26F0 /* JGZChatRoomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EAF444C1E41CB89005D26F0 /* JGZChatRoomCell.m */; };
-		0EAF44651E41D1A4005D26F0 /* JGZEmojiCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EAF44501E41D1A4005D26F0 /* JGZEmojiCell.m */; };
-		0EAF44661E41D1A4005D26F0 /* JGZEmojiCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EAF44521E41D1A4005D26F0 /* JGZEmojiCollectionCell.m */; };
-		0EAF44671E41D1A4005D26F0 /* JGZEmojiKeyBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EAF44541E41D1A4005D26F0 /* JGZEmojiKeyBoard.m */; };
-		0EAF44681E41D1A4005D26F0 /* JGZEmojiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EAF44561E41D1A4005D26F0 /* JGZEmojiManager.m */; };
-		0EAF44691E41D1A4005D26F0 /* JGZEmojiModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EAF44581E41D1A4005D26F0 /* JGZEmojiModel.m */; };
-		0EAF446A1E41D1A4005D26F0 /* JGZTextAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EAF445A1E41D1A4005D26F0 /* JGZTextAttachment.m */; };
-		0EAF446B1E41D1A4005D26F0 /* expressionImage_custom.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0EAF445C1E41D1A4005D26F0 /* expressionImage_custom.plist */; };
-		0EAF446C1E41D1A4005D26F0 /* JGZEmoji_Expression.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0EAF445D1E41D1A4005D26F0 /* JGZEmoji_Expression.bundle */; };
-		0EAF446D1E41D1A4005D26F0 /* JGZInputTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EAF44601E41D1A4005D26F0 /* JGZInputTextView.m */; };
-		0EAF446E1E41D1A4005D26F0 /* JGZToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EAF44631E41D1A4005D26F0 /* JGZToolBar.m */; };
-		0EAF446F1E41D1A4005D26F0 /* ToolBarIcon.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0EAF44641E41D1A4005D26F0 /* ToolBarIcon.bundle */; };
 		0EAF44721E41D36C005D26F0 /* EMSDKHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EAF44711E41D36C005D26F0 /* EMSDKHelp.m */; };
 		0EAF85BA1E40218800E0FFF8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EAF85B91E40218800E0FFF8 /* main.m */; };
 		0EAF85BD1E40218800E0FFF8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EAF85BC1E40218800E0FFF8 /* AppDelegate.m */; };
@@ -114,53 +88,6 @@
 		0EAF441A1E418D62005D26F0 /* JGZMainViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGZMainViewCell.h; sourceTree = "<group>"; };
 		0EAF441B1E418D62005D26F0 /* JGZMainViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGZMainViewCell.m; sourceTree = "<group>"; };
 		0EAF441D1E418F55005D26F0 /* talkDemo.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = talkDemo.pch; sourceTree = "<group>"; };
-		0EAF44211E4196CB005D26F0 /* NSAttributedString+MLLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+MLLabel.h"; sourceTree = "<group>"; };
-		0EAF44221E4196CB005D26F0 /* NSAttributedString+MLLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+MLLabel.m"; sourceTree = "<group>"; };
-		0EAF44231E4196CB005D26F0 /* NSMutableAttributedString+MLLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+MLLabel.h"; sourceTree = "<group>"; };
-		0EAF44241E4196CB005D26F0 /* NSMutableAttributedString+MLLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+MLLabel.m"; sourceTree = "<group>"; };
-		0EAF44251E4196CB005D26F0 /* NSString+MLLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MLLabel.h"; sourceTree = "<group>"; };
-		0EAF44261E4196CB005D26F0 /* NSString+MLLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MLLabel.m"; sourceTree = "<group>"; };
-		0EAF44271E4196CB005D26F0 /* ClippedExpression.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ClippedExpression.bundle; sourceTree = "<group>"; };
-		0EAF44291E4196CB005D26F0 /* MLExpressionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLExpressionManager.h; sourceTree = "<group>"; };
-		0EAF442A1E4196CB005D26F0 /* MLExpressionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLExpressionManager.m; sourceTree = "<group>"; };
-		0EAF442B1E4196CB005D26F0 /* MLTextAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLTextAttachment.h; sourceTree = "<group>"; };
-		0EAF442C1E4196CB005D26F0 /* MLTextAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLTextAttachment.m; sourceTree = "<group>"; };
-		0EAF442D1E4196CB005D26F0 /* NSAttributedString+MLExpression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+MLExpression.h"; sourceTree = "<group>"; };
-		0EAF442E1E4196CB005D26F0 /* NSAttributedString+MLExpression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+MLExpression.m"; sourceTree = "<group>"; };
-		0EAF442F1E4196CB005D26F0 /* NSString+MLExpression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MLExpression.h"; sourceTree = "<group>"; };
-		0EAF44301E4196CB005D26F0 /* NSString+MLExpression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MLExpression.m"; sourceTree = "<group>"; };
-		0EAF44311E4196CB005D26F0 /* Expression.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expression.plist; sourceTree = "<group>"; };
-		0EAF44331E4196CB005D26F0 /* MLLabel+Override.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MLLabel+Override.h"; sourceTree = "<group>"; };
-		0EAF44341E4196CB005D26F0 /* MLLabelLayoutManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLLabelLayoutManager.h; sourceTree = "<group>"; };
-		0EAF44351E4196CB005D26F0 /* MLLabelLayoutManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLLabelLayoutManager.m; sourceTree = "<group>"; };
-		0EAF44361E4196CB005D26F0 /* MLLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLLabel.h; sourceTree = "<group>"; };
-		0EAF44371E4196CB005D26F0 /* MLLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLLabel.m; sourceTree = "<group>"; };
-		0EAF44381E4196CB005D26F0 /* MLLinkLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLLinkLabel.h; sourceTree = "<group>"; };
-		0EAF44391E4196CB005D26F0 /* MLLinkLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLLinkLabel.m; sourceTree = "<group>"; };
-		0EAF443A1E4196CB005D26F0 /* OriginalExpression.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = OriginalExpression.bundle; sourceTree = "<group>"; };
-		0EAF44481E41C6FC005D26F0 /* JGZChatRoomController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGZChatRoomController.h; sourceTree = "<group>"; };
-		0EAF44491E41C6FC005D26F0 /* JGZChatRoomController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGZChatRoomController.m; sourceTree = "<group>"; };
-		0EAF444B1E41CB89005D26F0 /* JGZChatRoomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGZChatRoomCell.h; sourceTree = "<group>"; };
-		0EAF444C1E41CB89005D26F0 /* JGZChatRoomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGZChatRoomCell.m; sourceTree = "<group>"; };
-		0EAF444F1E41D1A4005D26F0 /* JGZEmojiCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGZEmojiCell.h; sourceTree = "<group>"; };
-		0EAF44501E41D1A4005D26F0 /* JGZEmojiCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGZEmojiCell.m; sourceTree = "<group>"; };
-		0EAF44511E41D1A4005D26F0 /* JGZEmojiCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGZEmojiCollectionCell.h; sourceTree = "<group>"; };
-		0EAF44521E41D1A4005D26F0 /* JGZEmojiCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGZEmojiCollectionCell.m; sourceTree = "<group>"; };
-		0EAF44531E41D1A4005D26F0 /* JGZEmojiKeyBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGZEmojiKeyBoard.h; sourceTree = "<group>"; };
-		0EAF44541E41D1A4005D26F0 /* JGZEmojiKeyBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGZEmojiKeyBoard.m; sourceTree = "<group>"; };
-		0EAF44551E41D1A4005D26F0 /* JGZEmojiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGZEmojiManager.h; sourceTree = "<group>"; };
-		0EAF44561E41D1A4005D26F0 /* JGZEmojiManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGZEmojiManager.m; sourceTree = "<group>"; };
-		0EAF44571E41D1A4005D26F0 /* JGZEmojiModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGZEmojiModel.h; sourceTree = "<group>"; };
-		0EAF44581E41D1A4005D26F0 /* JGZEmojiModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGZEmojiModel.m; sourceTree = "<group>"; };
-		0EAF44591E41D1A4005D26F0 /* JGZTextAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGZTextAttachment.h; sourceTree = "<group>"; };
-		0EAF445A1E41D1A4005D26F0 /* JGZTextAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGZTextAttachment.m; sourceTree = "<group>"; };
-		0EAF445C1E41D1A4005D26F0 /* expressionImage_custom.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = expressionImage_custom.plist; sourceTree = "<group>"; };
-		0EAF445D1E41D1A4005D26F0 /* JGZEmoji_Expression.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = JGZEmoji_Expression.bundle; sourceTree = "<group>"; };
-		0EAF445F1E41D1A4005D26F0 /* JGZInputTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGZInputTextView.h; sourceTree = "<group>"; };
-		0EAF44601E41D1A4005D26F0 /* JGZInputTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGZInputTextView.m; sourceTree = "<group>"; };
-		0EAF44621E41D1A4005D26F0 /* JGZToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGZToolBar.h; sourceTree = "<group>"; };
-		0EAF44631E41D1A4005D26F0 /* JGZToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGZToolBar.m; sourceTree = "<group>"; };
-		0EAF44641E41D1A4005D26F0 /* ToolBarIcon.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ToolBarIcon.bundle; sourceTree = "<group>"; };
 		0EAF44701E41D36C005D26F0 /* EMSDKHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMSDKHelp.h; sourceTree = "<group>"; };
 		0EAF44711E41D36C005D26F0 /* EMSDKHelp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMSDKHelp.m; sourceTree = "<group>"; };
 		0EAF85B51E40218800E0FFF8 /* talkDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = talkDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -242,115 +169,8 @@
 			isa = PBXGroup;
 			children = (
 				0E0628B31EE657F700EC8D89 /* GaodeMap */,
-				0EAF444E1E41D1A4005D26F0 /* JGZEmojiKeyBoard */,
-				0EAF445E1E41D1A4005D26F0 /* JGZInputTextView */,
-				0EAF44611E41D1A4005D26F0 /* JGZToolBar */,
-				0EAF441F1E4196CB005D26F0 /* MLLabel */,
 			);
 			path = Lib;
-			sourceTree = "<group>";
-		};
-		0EAF441F1E4196CB005D26F0 /* MLLabel */ = {
-			isa = PBXGroup;
-			children = (
-				0EAF44201E4196CB005D26F0 /* Category */,
-				0EAF44271E4196CB005D26F0 /* ClippedExpression.bundle */,
-				0EAF44281E4196CB005D26F0 /* Expression */,
-				0EAF44311E4196CB005D26F0 /* Expression.plist */,
-				0EAF44321E4196CB005D26F0 /* Helper */,
-				0EAF44361E4196CB005D26F0 /* MLLabel.h */,
-				0EAF44371E4196CB005D26F0 /* MLLabel.m */,
-				0EAF44381E4196CB005D26F0 /* MLLinkLabel.h */,
-				0EAF44391E4196CB005D26F0 /* MLLinkLabel.m */,
-				0EAF443A1E4196CB005D26F0 /* OriginalExpression.bundle */,
-			);
-			path = MLLabel;
-			sourceTree = "<group>";
-		};
-		0EAF44201E4196CB005D26F0 /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				0EAF44211E4196CB005D26F0 /* NSAttributedString+MLLabel.h */,
-				0EAF44221E4196CB005D26F0 /* NSAttributedString+MLLabel.m */,
-				0EAF44231E4196CB005D26F0 /* NSMutableAttributedString+MLLabel.h */,
-				0EAF44241E4196CB005D26F0 /* NSMutableAttributedString+MLLabel.m */,
-				0EAF44251E4196CB005D26F0 /* NSString+MLLabel.h */,
-				0EAF44261E4196CB005D26F0 /* NSString+MLLabel.m */,
-			);
-			path = Category;
-			sourceTree = "<group>";
-		};
-		0EAF44281E4196CB005D26F0 /* Expression */ = {
-			isa = PBXGroup;
-			children = (
-				0EAF44291E4196CB005D26F0 /* MLExpressionManager.h */,
-				0EAF442A1E4196CB005D26F0 /* MLExpressionManager.m */,
-				0EAF442B1E4196CB005D26F0 /* MLTextAttachment.h */,
-				0EAF442C1E4196CB005D26F0 /* MLTextAttachment.m */,
-				0EAF442D1E4196CB005D26F0 /* NSAttributedString+MLExpression.h */,
-				0EAF442E1E4196CB005D26F0 /* NSAttributedString+MLExpression.m */,
-				0EAF442F1E4196CB005D26F0 /* NSString+MLExpression.h */,
-				0EAF44301E4196CB005D26F0 /* NSString+MLExpression.m */,
-			);
-			path = Expression;
-			sourceTree = "<group>";
-		};
-		0EAF44321E4196CB005D26F0 /* Helper */ = {
-			isa = PBXGroup;
-			children = (
-				0EAF44331E4196CB005D26F0 /* MLLabel+Override.h */,
-				0EAF44341E4196CB005D26F0 /* MLLabelLayoutManager.h */,
-				0EAF44351E4196CB005D26F0 /* MLLabelLayoutManager.m */,
-			);
-			path = Helper;
-			sourceTree = "<group>";
-		};
-		0EAF444E1E41D1A4005D26F0 /* JGZEmojiKeyBoard */ = {
-			isa = PBXGroup;
-			children = (
-				0EAF444F1E41D1A4005D26F0 /* JGZEmojiCell.h */,
-				0EAF44501E41D1A4005D26F0 /* JGZEmojiCell.m */,
-				0EAF44511E41D1A4005D26F0 /* JGZEmojiCollectionCell.h */,
-				0EAF44521E41D1A4005D26F0 /* JGZEmojiCollectionCell.m */,
-				0EAF44531E41D1A4005D26F0 /* JGZEmojiKeyBoard.h */,
-				0EAF44541E41D1A4005D26F0 /* JGZEmojiKeyBoard.m */,
-				0EAF44551E41D1A4005D26F0 /* JGZEmojiManager.h */,
-				0EAF44561E41D1A4005D26F0 /* JGZEmojiManager.m */,
-				0EAF44571E41D1A4005D26F0 /* JGZEmojiModel.h */,
-				0EAF44581E41D1A4005D26F0 /* JGZEmojiModel.m */,
-				0EAF44591E41D1A4005D26F0 /* JGZTextAttachment.h */,
-				0EAF445A1E41D1A4005D26F0 /* JGZTextAttachment.m */,
-				0EAF445B1E41D1A4005D26F0 /* Resource */,
-			);
-			path = JGZEmojiKeyBoard;
-			sourceTree = "<group>";
-		};
-		0EAF445B1E41D1A4005D26F0 /* Resource */ = {
-			isa = PBXGroup;
-			children = (
-				0EAF445C1E41D1A4005D26F0 /* expressionImage_custom.plist */,
-				0EAF445D1E41D1A4005D26F0 /* JGZEmoji_Expression.bundle */,
-			);
-			path = Resource;
-			sourceTree = "<group>";
-		};
-		0EAF445E1E41D1A4005D26F0 /* JGZInputTextView */ = {
-			isa = PBXGroup;
-			children = (
-				0EAF445F1E41D1A4005D26F0 /* JGZInputTextView.h */,
-				0EAF44601E41D1A4005D26F0 /* JGZInputTextView.m */,
-			);
-			path = JGZInputTextView;
-			sourceTree = "<group>";
-		};
-		0EAF44611E41D1A4005D26F0 /* JGZToolBar */ = {
-			isa = PBXGroup;
-			children = (
-				0EAF44621E41D1A4005D26F0 /* JGZToolBar.h */,
-				0EAF44631E41D1A4005D26F0 /* JGZToolBar.m */,
-				0EAF44641E41D1A4005D26F0 /* ToolBarIcon.bundle */,
-			);
-			path = JGZToolBar;
 			sourceTree = "<group>";
 		};
 		0EAF85AC1E40218800E0FFF8 = {
@@ -385,10 +205,6 @@
 				0EAF85BF1E40218800E0FFF8 /* MainViewController.m */,
 				0EAF441A1E418D62005D26F0 /* JGZMainViewCell.h */,
 				0EAF441B1E418D62005D26F0 /* JGZMainViewCell.m */,
-				0EAF44481E41C6FC005D26F0 /* JGZChatRoomController.h */,
-				0EAF44491E41C6FC005D26F0 /* JGZChatRoomController.m */,
-				0EAF444B1E41CB89005D26F0 /* JGZChatRoomCell.h */,
-				0EAF444C1E41CB89005D26F0 /* JGZChatRoomCell.m */,
 				0E0628931EE646CB00EC8D89 /* JGZSharedLocationController.h */,
 				0E0628941EE646CB00EC8D89 /* JGZSharedLocationController.m */,
 				0E0628C31EE689AC00EC8D89 /* JGZLocationModel.h */,
@@ -544,16 +360,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0EAF446C1E41D1A4005D26F0 /* JGZEmoji_Expression.bundle in Resources */,
-				0EAF44431E4196CB005D26F0 /* Expression.plist in Resources */,
 				0E9838271E4068A3002C6878 /* Main.storyboard in Resources */,
 				0E0628C21EE67CBC00EC8D89 /* arrow@3x.png in Resources */,
-				0EAF443E1E4196CB005D26F0 /* ClippedExpression.bundle in Resources */,
 				0EAF85C81E40218800E0FFF8 /* LaunchScreen.storyboard in Resources */,
-				0EAF446F1E41D1A4005D26F0 /* ToolBarIcon.bundle in Resources */,
-				0EAF44471E4196CB005D26F0 /* OriginalExpression.bundle in Resources */,
 				0EAF85C51E40218800E0FFF8 /* Assets.xcassets in Resources */,
-				0EAF446B1E41D1A4005D26F0 /* expressionImage_custom.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -613,38 +423,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				0EAF85C01E40218800E0FFF8 /* MainViewController.m in Sources */,
-				0EAF44691E41D1A4005D26F0 /* JGZEmojiModel.m in Sources */,
 				0E0628C51EE689AC00EC8D89 /* JGZLocationModel.m in Sources */,
-				0EAF44451E4196CB005D26F0 /* MLLabel.m in Sources */,
-				0EAF44661E41D1A4005D26F0 /* JGZEmojiCollectionCell.m in Sources */,
-				0EAF443B1E4196CB005D26F0 /* NSAttributedString+MLLabel.m in Sources */,
 				0E3272C31EE7996F005DD136 /* CustomAnnotationView.m in Sources */,
 				0EAF44721E41D36C005D26F0 /* EMSDKHelp.m in Sources */,
-				0EAF446E1E41D1A4005D26F0 /* JGZToolBar.m in Sources */,
 				0EAF85BD1E40218800E0FFF8 /* AppDelegate.m in Sources */,
-				0EAF446D1E41D1A4005D26F0 /* JGZInputTextView.m in Sources */,
-				0EAF444D1E41CB89005D26F0 /* JGZChatRoomCell.m in Sources */,
-				0EAF44441E4196CB005D26F0 /* MLLabelLayoutManager.m in Sources */,
-				0EAF444A1E41C6FC005D26F0 /* JGZChatRoomController.m in Sources */,
-				0EAF44461E4196CB005D26F0 /* MLLinkLabel.m in Sources */,
 				0EAF85BA1E40218800E0FFF8 /* main.m in Sources */,
-				0EAF44651E41D1A4005D26F0 /* JGZEmojiCell.m in Sources */,
 				0E9838211E406330002C6878 /* JGZAccountTool.m in Sources */,
 				0EAF85EB1E402ECC00E0FFF8 /* JGZLoginController.m in Sources */,
 				0E98382A1E407154002C6878 /* AppDelegate+EMAppDelegate.m in Sources */,
-				0EAF44401E4196CB005D26F0 /* MLTextAttachment.m in Sources */,
-				0EAF44421E4196CB005D26F0 /* NSString+MLExpression.m in Sources */,
 				0E0628C01EE679A300EC8D89 /* MAAnnotationView+JGZMAAnnotationView.m in Sources */,
 				0E9838241E406356002C6878 /* JGZAccount.m in Sources */,
 				0E0628951EE646CB00EC8D89 /* JGZSharedLocationController.m in Sources */,
-				0EAF443F1E4196CB005D26F0 /* MLExpressionManager.m in Sources */,
-				0EAF44411E4196CB005D26F0 /* NSAttributedString+MLExpression.m in Sources */,
-				0EAF443C1E4196CB005D26F0 /* NSMutableAttributedString+MLLabel.m in Sources */,
 				0E3272C01EE79939005DD136 /* CustomAnnotation.m in Sources */,
-				0EAF446A1E41D1A4005D26F0 /* JGZTextAttachment.m in Sources */,
-				0EAF443D1E4196CB005D26F0 /* NSString+MLLabel.m in Sources */,
-				0EAF44671E41D1A4005D26F0 /* JGZEmojiKeyBoard.m in Sources */,
-				0EAF44681E41D1A4005D26F0 /* JGZEmojiManager.m in Sources */,
 				0EAF441C1E418D62005D26F0 /* JGZMainViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

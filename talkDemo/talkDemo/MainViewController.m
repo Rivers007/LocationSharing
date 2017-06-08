@@ -8,7 +8,6 @@
 
 #import "MainViewController.h"
 #import "JGZMainViewCell.h"
-#import "JGZChatRoomController.h"
 #import "JGZAccountTool.h"
 #import "JGZSharedLocationController.h"
 @interface MainViewController ()<UITableViewDelegate,UITableViewDataSource,EMChatManagerDelegate>

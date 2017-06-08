@@ -29,7 +29,7 @@
     self.UserNameLabel = [[UILabel alloc] init];
     //self.UserNameLabel.backgroundColor=[UIColor redColor];
     
-    self.BodyDetailLabel = [[MLLinkLabel alloc] init];
+    self.BodyDetailLabel = [[UILabel alloc] init];
     //self.BodyDetailLabel.backgroundColor=[UIColor redColor];
     self.BodyDetailLabel.font=[UIFont systemFontOfSize:15];
     

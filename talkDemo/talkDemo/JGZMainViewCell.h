@@ -11,7 +11,7 @@
 @interface JGZMainViewCell : UITableViewCell
 @property (nonatomic,strong) UIImageView *UserIconView;
 @property (nonatomic,strong) UILabel *UserNameLabel;
-@property (nonatomic,strong) MLLinkLabel *BodyDetailLabel;
+@property (nonatomic,strong) UILabel *BodyDetailLabel;
 @property (nonatomic,strong) UILabel *LastTimeLabel;
 
 @property (nonatomic,strong) EMMessage *message;

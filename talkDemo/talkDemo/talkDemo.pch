@@ -13,8 +13,6 @@
 #import <YYKit.h>
 #import <Hyphenate_CN/EMSDKFull.h>
 //#import <Hyphenate_CN/IEMChatManager.h>
-#import "MLLabel.h"
-#import "MLLinkLabel.h"
 
 #import <MAMapKit/MAMapKit.h>
 #import <AMapFoundationKit/AMapFoundationKit.h>
